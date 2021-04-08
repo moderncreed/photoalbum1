@@ -16,6 +16,10 @@ public class User {
     public User(String nickname, String email, String password) {
     }
 
+    public User() {
+
+    }
+
     public Long getId() {
         return id;
     }
